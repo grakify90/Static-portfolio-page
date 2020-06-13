@@ -6,3 +6,9 @@ body {
 .social-media-button{
     height: 2rem;
 }
+div{
+    min-height: 2rem;
+    min-width: 2rem;
+    margin: 2rem;
+    border: 1px solid black;
+}
