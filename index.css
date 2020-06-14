@@ -1,30 +1,70 @@
 body {
-    background-color: green;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
-.social-media-button{
-    height: 2rem;
+h1{
+    font-family: 'MuseoModerno', cursive;
 }
 div{
     min-height: 2rem;
     min-width: 2rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 .main{
-    display: flex;
-    flex-flow: row;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+img{
+    max-width: 100%;
 }
 .sidebar{
-    flex-grow: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.header{
+    display: flex;
+    flex-flow: column;
+}
+#gachatitle{
+    background-color: #ecffe6;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: 4vw;
+    text-align: center;
+}
+.info{
+    text-align: left;
+    font-size: 2.8vw;
+    padding: 0 1.1em 0 1.1em;
+}
 .more-info{
-    flex-grow: 2;
+    flex-flow: row;
 }
 .work-experience{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em;
+    text-align: left;
+    font-size: 120%;
+    line-height: 150%;
 }
 .education{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em;
+    text-align: left;
+    font-size: 120%;
+    line-height: 150%;
+}
+i{
+    text-decoration: none;
+    color: black;
+}
+.footer > span{
+    padding: 0 5vw 0 5vw;
 }
